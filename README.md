@@ -1,28 +1,27 @@
-# Importing functions in python
+# Importing your own functions in a py file
 
-There are three examples in here, at three different locations in the directory.
-The .py file with the functions will always be in: `test_project/analysis/script/test.py`, the three examples will show you how to import it from three different locations.
-
-1. `test_project/Root_Import.ipynb`
+Here is the directory structure of this demo repository:
 
 ```
-from analysis.script import test
-test.hello()
+.
+├── README.md  *** <-------- WE ARE HERE
+├── Root_Import.ipynb
+├── analysis
+│   ├── student1
+│   │   └── student_Import.ipynb
+│   └── subdir_Import.ipynb 
+├── data
+│   └── README.md
+└── scripts
+    └── project_test.py
 ```
 
-2. `test_project/analysis/subdir_Import.ipynb`
 
-```
-from script import test
-test.hello()
-```
+There are three examples in here showing you how to import `scripts/project_test.py` at three different locations in this repository.
+The .py file with the functions will always be in: `analysis/script/test.py`, the three examples will show you how to import the file from three different locations.
 
-3. `test_project/analysis/student/student_Import.ipynb`
+1. [`Root_Import.ipynb`](Root_Import.ipynb)
 
-```
-import sys, os
-sys.path.insert(0, os.path.abspath('..'))
+2. [`analysis/subdir_Import.ipynb`](analysis/subdir_Import.ipynb)
 
-from script import test
-test.hello()
-```
+3. [`analysis/student1/student_Import.ipynb`](analysis/student1/student_Import.ipynb)
