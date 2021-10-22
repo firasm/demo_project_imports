@@ -25,3 +25,7 @@ The .py file with the functions will always be in: `analysis/script/test.py`, th
 2. [`analysis/subdir_Import.ipynb`](analysis/subdir_Import.ipynb)
 
 3. [`analysis/student1/student_Import.ipynb`](analysis/student1/student_Import.ipynb)
+
+## Additional Readings
+
+This [video](https://www.youtube.com/watch?v=ZBYDbAQKs3I) is perhaps the best one I've seen about absolute and relative imports!
