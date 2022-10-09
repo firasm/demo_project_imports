@@ -18,7 +18,7 @@ Here is the directory structure of this demo repository:
 
 
 There are three examples in here showing you how to import `scripts/project_test.py` at three different locations in this repository.
-The .py file with the functions will always be in: `analysis/script/test.py`, the three examples will show you how to import the file from three different locations.
+The .py file with the functions will always be in: `scripts/project_test.py`, the three examples will show you how to import the file from three different locations.
 
 1. [`Root_Import.ipynb`](Root_Import.ipynb)
 
